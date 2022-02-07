@@ -11,8 +11,8 @@
   },
   "scripts": {
     "storybook": "start-storybook",
-    "build": "webpack --config webpack.prod.js",
-    "start": "webpack serve --open --config webpack.dev.js"
+    "deploy-storybook": "storybook-to-ghpages",
+    "build": "webpack --config webpack.prod.js"
   },
   "dependencies": {
     "react": "^17.0.2",
@@ -26,6 +26,7 @@
     "@storybook/addon-knobs": "^6.4.0",
     "@storybook/preset-scss": "^1.0.3",
     "@storybook/react": "^6.4.18",
+    "@storybook/storybook-deployer": "^2.8.10",
     "babel-loader": "^8.2.3",
     "clean-webpack-plugin": "^4.0.0",
     "path": "^0.12.7",
