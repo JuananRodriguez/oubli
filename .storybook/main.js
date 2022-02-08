@@ -2,9 +2,9 @@ var path = require("path");
 
 module.exports = {
   stories: [
-    "../src/Atoms/**/*.stories.@(js|md)",
-    "../src/Molecules/**/*.stories.@(js|md)",
-    "../src/Organisms/**/*.stories.@(js|md)",
+    "../src/Atoms/**/*.stories.*",
+    "../src/Molecules/**/*.stories.*",
+    "../src/Organisms/**/*.stories.*",
   ],
   addons: ["@storybook/addon-essentials", "@storybook/addon-a11y"],
   features: {
