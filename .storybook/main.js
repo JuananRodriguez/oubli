@@ -7,4 +7,10 @@ module.exports = {
     "../src/Organisms/**/*.stories.@(js|md)",
   ],
   addons: ["@storybook/addon-a11y", "@storybook/addon-essentials"],
+  features: {
+    //As your Storybook grows in size, it gets challenging to load all of
+    //your stories in a performant way, slowing down the loading times and yielding a large bundle.
+    //You can optimize your story loading by enabling the storyStoreV7 feature flag as true
+    storyStoreV7: true,
+  },
 };
