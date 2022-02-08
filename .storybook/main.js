@@ -6,9 +6,5 @@ module.exports = {
     "../src/Molecules/**/*.stories.@(js|md)",
     "../src/Organisms/**/*.stories.@(js|md)",
   ],
-  addons: [
-    "@storybook/addon-a11y",
-    "@storybook/addon-controls",
-    "@storybook/addon-viewport",
-  ],
+  addons: ["@storybook/addon-a11y", "@storybook/addon-essentials"],
 };
