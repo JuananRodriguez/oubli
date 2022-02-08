@@ -26,6 +26,7 @@
     "@storybook/addon-essentials": "^6.4.18",
     "@storybook/react": "^6.4.18",
     "@storybook/storybook-deployer": "^2.8.10",
+    "@storybook/preset-scss": "^1.0.3",
     "babel-loader": "^8.2.3",
     "clean-webpack-plugin": "^4.0.0",
     "path": "^0.12.7",
