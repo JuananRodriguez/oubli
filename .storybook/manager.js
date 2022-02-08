@@ -1,6 +1,6 @@
 import React from "react";
 import { addons } from "@storybook/addons";
-import { themes } from '@storybook/theming';
+import customTheme from "./theme";
 
 addons.setConfig({
   //Show story component as full screen
@@ -41,6 +41,5 @@ addons.setConfig({
 });
 
 addons.setConfig({
-  theme: themes.dark,
+  theme: customTheme,
 });
-
